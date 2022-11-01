@@ -1,4 +1,4 @@
-# Research_Algorithms
+# Research_Algorithms - Ex1
 
 ## Clone the project and run in pycharm:
 * pytest q1_test.py
