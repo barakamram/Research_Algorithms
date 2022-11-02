@@ -41,5 +41,13 @@ def test_8():
     assert safe_call(f, x=3, y=-1.3, z=-3) == -1.3
 
 
+def test_9():
+    assert safe_call(f2, x="a", y="bb", z="ccc") == "abbccc"
+
+
+def test_10():
+    assert safe_call(f2, x="ba", y="r", z="ak") == "barak"
+
+
 if __name__ == "__main__":
     pass
