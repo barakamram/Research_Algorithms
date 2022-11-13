@@ -1,6 +1,7 @@
 import re
 import doctest
-# take from geeksforgeeks with a little bit change
+# take from geeksforgeeks with a little bit change:
+# https://www.geeksforgeeks.org/check-if-email-address-valid-or-not-in-python/
 regex = r'([A-Za-z0-9]+[._%+-])*[A-Za-z0-9]+@[A-Za-z0-9-]+\.[A-Z|a-z]{2,}'
 
 
